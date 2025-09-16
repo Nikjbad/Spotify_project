@@ -1,0 +1,639 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+header{
+    position: fixed;
+    visibility: visible;
+}
+.header{
+    background-color: black;
+    display: flex;
+    width: 111%;
+    position: relative;
+}
+.spotifylogo{
+    margin-top: 23px;
+    margin-left: 33px;
+   height: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    
+}
+.home{
+    margin-top: 23px;
+    margin-left: 53px;
+    height: 34px;
+   margin-bottom: 12px;
+    filter:invert();
+    border-width: 23px ;
+    cursor: pointer;
+    
+}
+.home:hover{
+    
+    transform: scale(1.1);
+}
+#search{
+    background-color: rgb(36, 36, 36);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    
+    margin-left: 8px;
+    height: 43px;
+    border: none;
+    border-color: none;
+    font-size: 15px;
+    width: 434px;
+    border-radius: 23px;
+    font-family: sans-serif;
+    
+}
+.searchbar{
+    display: flex;
+   border-radius: 23px;
+   height:43px;
+   margin-left: 14px;
+   margin-top: 20px;
+    background-color: rgb(36, 36, 36);
+    
+}
+.searchkaro{
+    height: 23px;
+    
+    margin-top: 12px;
+    margin-left: 14px;
+    filter: invert();
+}
+.searchbar:hover{
+    
+    border: 2px solid white;
+    transform: scale(1.01);
+}
+.searchbar:active{
+    border: 2px solid white;
+    transform: scale(1.01);
+}
+#search:active{
+    border: none;
+}
+.prem{
+    display: flex;
+    color: white;
+    
+    font-family: sans-serif;
+    margin-left: 253px;
+    margin-top: 33px;
+
+}
+.prem ul li{
+    list-style: none;
+    color: rgb(125, 125, 125);
+    margin-left: 9px;
+    filter: brightness(1.5);
+    font-weight: 700;
+    cursor: pointer;
+}
+.prem ul{
+    display: flex;
+}
+.prem ul li:hover{
+    filter: brightness(12) ;
+    transform: scale(1.08);
+    font-weight: 700;
+}
+p{
+    margin-left: 23px;
+    color: white;
+    font-size: 33px;
+    font-weight: 100;
+    margin-top: 18px;
+}
+.lasthead ul{
+    display: flex;
+  
+}
+.lasthead ul li{
+    color: rgb(185, 184, 184);
+    list-style: none;
+    margin-left: 43px;
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-top: 34px;
+    font-weight: 600;
+}
+.lasthead ul li img{
+    height: 13px;
+    filter: invert();
+    cursor: pointer;
+}
+div.lasthead{
+    display: flex;
+}
+.login{
+    background-color: rgb(255, 255, 255);
+    height: 47px;
+    width: 93px;
+    border-radius: 23px;
+    margin-left: 33px;
+    text-indent: 3px;
+    margin-top: 17px;
+    cursor: pointer;
+}
+.login p{
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 750;
+    margin-bottom: 23px;
+}
+.login:hover{
+    transform: scale(1.05);
+}
+.lasthead ul li:hover{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+    transform: scale(1.08);
+
+}
+.container{
+   display: flex;
+   
+   
+}
+div.box1{
+    width: 30%;
+    height: 200vw;
+    color: white;
+    background-color: rgb(15, 15, 15);
+    margin-top: 74px;
+    position: fixed;
+    border: 2px solid white;
+    margin-left: -2px;
+    
+}
+.box1 ul{
+    display: flex;
+    margin-top: 23px;
+    margin-left: 43px;
+    color: rgb(185, 184, 184);
+}
+.box1 ul li{
+    list-style: none;
+}
+
+
+.librarylogo{
+    filter: invert();
+    height: 23px;
+    
+}
+div.box2{
+    width: 70%;
+    height: 147vw;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    margin-left: 30%;
+    margin-top: 74px;
+
+    border: 2px solid white;
+}
+.lib1{
+    margin-left: 13px;
+    font-size: 19px;
+    
+}
+.lib2{
+    margin-left: 214px;
+    font-size: 29px;
+    margin-top: -6px;
+}
+.box1 ul li:hover{
+    color: white;
+    transition: 0.5s;
+}
+div.container .a{
+    width: 90%;
+    height: 153px;
+    background-color: rgb(34, 34, 34);
+    margin-left: 23px;
+    border-radius: 12px;
+}
+.a{
+    margin-top: 33px;
+    position: absolute;
+}
+
+
+.p1{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    
+}
+.p2{
+    margin-top: -10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+div button.btn1 {
+    background-color: white;
+    color: black;
+    width: 143px;
+   margin-top: 23px;
+   margin-left: 23px;
+   border-radius: 23px;
+   height: 37px;
+}
+.btn1 p{
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    margin-top: -1px;
+    margin-left: -5px;
+    
+}
+button:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.b{
+    
+        margin-top: 203px;
+        position: absolute;
+    
+     width: 90%;
+    height: 153px;
+    background-color: rgb(34, 34, 34);
+    margin-left: 23px;
+    border-radius: 12px;
+}
+.containercook{
+    color: rgb(25, 51, 74);
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 543px;
+    max-width: 233px;
+}
+.boxas{
+    position: fixed;
+}
+
+.boxas ul{
+    display: flex;
+    color: rgb(144, 144, 144);
+}
+div.containercook .boxas ul li{
+    list-style: none;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.qw{
+    margin-top: 26px;
+}
+h1{
+    color: white;
+    font-weight: 700;
+    margin-left: 28px;
+    margin-top: 23px;
+    font-size: 26px;
+}
+h1:hover{
+    text-decoration: underline;
+    
+}
+div.artists{
+    display: flex;
+    background-color: rgb(12, 12, 12);
+}
+div.artist img{
+    height: 144px;
+   margin-left: 22px;
+   margin-right: 22px;
+    margin-top: 34px;
+    border-radius: 144px;
+
+}
+.pritam{
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 600
+}
+.pritam:hover{
+    text-decoration: underline;
+}
+.pritam1{
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: -12px;
+}
+div.artist{
+    margin-left: 25px;
+    width: 226px;
+}
+div.artist:hover{
+    background-color: rgb(37, 37, 37);
+    border-radius: 12px;
+    height: 253px;
+}
+
+div.arijit{
+    width: 226px;
+    margin-left: 23px;
+}
+div.arijit img{
+    height: 144px;
+    margin-left: 22px;
+    margin-right: 22px;
+     margin-top: 34px;
+     border-radius: 144px;
+  width: 144px
+}
+div.arijit:hover{
+    background-color: rgb(37, 37, 37);
+    border-radius: 12px;
+    height: 253px;
+}
+div.rahman img{
+    height: 144px;
+    margin-left: 22px;
+    margin-right: 22px;
+     margin-top: 34px;
+     border-radius: 144px;
+  width: 144px
+}
+div.rahman:hover{
+    background-color: rgb(37, 37, 37);
+    border-radius: 12px;
+    height: 253px;
+}
+div.rahman{
+    margin-left: 23px;
+    width: 226px;
+}
+.h1{
+    display: flex;
+
+}
+.show{
+    font-size: 14px;
+    margin-left: 70%;
+    
+}
+.h2{
+    display: flex;
+    margin-top: 43px;
+}
+.show2{
+    font-size: 14px;
+    margin-left: 55%;
+    
+}
+.next1{
+    display: flex;
+}
+div.nex{
+    margin-left: 5px;
+    width: 236px;
+    margin-top: 13px;
+}
+div.nex img{
+    height: 154px;
+  
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 34px;
+    border-radius: 14px;
+    width: 143px;
+
+}
+
+.next{
+    
+    font-size: 14px;
+    font-weight: 600;
+    display: flexbox;
+}
+.nex11{
+    
+    font-size: 13px;
+    
+    font-weight: 100;
+    margin-top: -12px;
+}
+.nex11:hover{
+    text-decoration: underline;
+}
+.next:hover{
+    text-decoration: underline;
+}
+div.nex:hover{
+    background-color: rgb(37, 37, 37);
+    height: 318px;
+    border-radius: 12px;
+    width: 240px;
+    height: 299px;
+}
+.nex111{
+    
+    font-size: 13px;
+    
+    font-weight: 100;
+    margin-left: 10px;
+    
+}
+
+.h3{
+    
+        display: flex;
+        margin-top: 43px;
+    
+}
+.show3{
+    font-size: 14px;
+    margin-left: 72%;
+}
+div.nex2{
+    margin-left: 5px;
+    width: 236px;
+    margin-top: 13px;
+}
+div.nex2 img{
+    height: 154px;
+  
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 34px;
+    border-radius: 14px;
+    width: 143px;
+
+}
+div.nex2:hover{
+    background-color: rgb(37, 37, 37);
+    height: 254px;
+    border-radius: 12px;
+}
+.show2{
+    font-size: 14px;
+    margin-left: 55%;
+    
+}
+.show4{
+    font-size: 14px;
+    margin-left: 69%;
+    
+}
+.show5{
+    font-size: 14px;
+    margin-left: 74%;
+    
+}
+.cc .bo ul{
+    display: flex;
+}
+
+.cc .bo ul li{
+list-style: none;
+margin-left: 55px;
+}
+.bold{
+    font-size: 18px;
+    margin-top: 103px;
+    font-weight: 700;
+}
+.sad{
+    font-size: 14px;
+    color: rgb(178, 178, 178);
+    margin-top: -3px;
+    font-weight: 700;
+}
+.sad1
+{
+    font-size: 14px;
+    color: rgb(178, 178, 178);
+    margin-top: -3px;
+    font-weight: 700;
+}
+.sad2
+{
+    font-size: 14px;
+    color: rgb(178, 178, 178);
+    
+    font-weight: 700;
+}
+.sad3
+{
+    font-size: 14px;
+    color: rgb(178, 178, 178);
+    margin-top: -3px;
+    font-weight: 700;
+}
+.sad4
+{
+    font-size: 14px;
+    color: rgb(178, 178, 178);
+    
+    font-weight: 700;
+}
+.sad5{
+    font-size: 14px;
+    color: rgb(178, 178, 178);
+    margin-top: -3px;
+    font-weight: 700;
+}
+.ww1{
+    filter: invert();
+    height: 24px;
+    margin-top: 103px;
+    cursor: pointer;
+}
+hr{
+    margin-top: 38px;
+    color: rgb(54, 54, 54);
+    
+}
+.oo{
+    font-size: 14px;
+    margin-top: 44px;
+    margin-left: 73px;
+    font-weight: 700;
+    color: rgb(178, 178, 178);;
+}
+.sad:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.sad1:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.sad2:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.sad3:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.sad4:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.sad5:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.ww1:hover{
+    
+      filter: drop-shadow(1.1);
+      transform: scale(1.5);
+}
+.ele{
+    color: white;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 2px;
+    background-color: rgb(30, 30, 30);
+    width: 69%;
+    height: 44px;
+    border-radius: 23px;
+    margin-left: 9px;
+   
+
+}
+.ele div img.v1{
+    
+    height: 24px;
+    filter: invert();
+    margin-left: 8px;
+    margin-top: 9px;
+    
+    
+    
+}
+.ele div{
+    margin-left: 47%;
+}
+.previous{
+    height: 20px;
+    filter: invert();
+    margin-left: 8px;
+    margin-bottom: 2px;
+    
+    
+}
+.ele:hover{
+    border: 2px solid white;
+}
